@@ -2,7 +2,11 @@
 
 header{
     background: hsl(217, 28%, 15%);
-
+    background-image: url("../img/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 5%;
 }
 .navbar-brand img{
     width: 100px;
@@ -14,34 +18,35 @@ header{
     font-size: 13px;
     opacity: .9;
 }
-.header-body{
-    background-image: url("../img/bg-curvy-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: 0px 50%;
-    background-size: 100%;
-}
-.header-body img{
+.header-imagen img{
     margin-top: 15px;
     width: 100%;
     padding: 20px 25px;
+}
+.header-imagen h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    padding:  0 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 10%;
+}
+.header-body{
+    height: 189px;
 }
 .header-body .textos{
     position: relative;
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 20%;
-    padding:  10px 25px;
+    padding:  0 25px;
     background-color: hsl(218, 28%, 13%);
 }
-.header-body .textos h2{
-    margin-top: -65px;
-    font-weight: 400;
-    line-height: 140%;
-}
+
 
 .header-body .textos p{
-    margin-top: 30px;
+
     padding: 0 20px;
     font-size: 14px;
     line-height: 170%;
