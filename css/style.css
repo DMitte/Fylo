@@ -35,6 +35,9 @@ header{
 .header-body{
     height: 189px;
 }
+.header-body.header{
+    display: none;
+}
 .header-body .textos{
     position: relative;
     font-family: 'Raleway', sans-serif;

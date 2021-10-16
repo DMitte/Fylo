@@ -1,6 +1,122 @@
 /*Tablets*/
-@media (min-width: 768px){
-    .header-body .textos h2{
+@media (min-width: 768px) {
+    .header-body .textos h2 {
         top: -200%;
+    }
+
+    .header-imagen img {
+        width: 40rem;
+    }
+
+    #team .container .card .card-body > img {
+        top: -28%;
+        width: 9%;
+        left: 3%;
+    }
+
+    #stay .container .row .imagen img {
+        width: 35em;
+    }
+}
+
+@media (min-width:992px){
+    header{
+        background: hsl(217, 28%, 15%);
+        background-image: url("../img/bg-curvy-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        padding-bottom: 15%;
+    }
+    .header-body .textos,
+    .header-body .boton{
+        background: transparent;
+    }
+    .header-body{
+        padding: 25px 0;
+    }
+    .header-body .textos p{
+        font-size: 18px;
+        width: 600px;
+        margin: auto;
+    }
+    .header-body.header{
+        display: block;
+    }
+    .header-body.main{
+        display: none;
+    }
+    .header-imagen h2{
+        font-family: 'Raleway', sans-serif;
+        width: 750px;
+        font-size: 40px;
+        margin: auto;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .header-body .boton a{
+        padding: 10px 100px;
+    }
+    .navbar{
+        padding: 25px 50px !important;
+    }
+    /*Features section*/
+    #features .container .row .col-12 p{
+        padding: 0 70px;
+    }
+    #features .container .row .col-12 h3{
+        margin-top: 25px;
+    }
+    /*stay section*/
+    #stay .container .row .col-12.text-white h3{
+        font-size: 40px;
+        padding-right: 20%;
+        padding-bottom: 0;
+    }
+    #stay .container .row .col-12.text-white p{
+        padding-right: 5%;
+    }
+    #stay .container .row .col-12.text-white a img{
+        width: 5%;
+    }
+    /*team section*/
+    #team .container .card .card-body > img{
+        top: -10%;
+        width: 10%;
+        left: -3%;
+    }
+
+    /*Footer*/
+    footer #sign-up{
+        width: 700px;
+        padding: 25px 40px !important;
+        margin: auto;
+        left: 0;
+        right: 0;
+        border-radius: 10px;
+    }
+    footer #sign-up p{
+        padding: 0 20px;
+    }
+    footer #sign-up form{
+        flex-direction: row !important;
+    }
+    footer #sign-up form input{
+        width: 100%;
+        margin-right: 25px;
+        padding: 10px 25px;
+    }
+    footer #sign-up form a{
+        margin-top: 3px;
+        width: 35%;
+        padding: 10px ;
+        font-size: 12px;
+        height: 40px;
+    }
+    footer .container .row .links{
+        margin: 0;
+    }
+    footer .container .row .links .d-flex{
+        flex-direction: row;
     }
 }
