@@ -267,12 +267,37 @@ footer .container .row .redes{
 footer .container .row .redes .d-flex{
     justify-content: center;
 }
+footer .container .row .redes .d-flex a{
+    color: white;
+}
 footer .container .row .redes .d-flex .red i{
     width: 15px;
     text-align: center;
 }
 footer .container .row .redes .d-flex .red{
-    padding: 5px 10px;
+    padding: 7px 11px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+/*Funtion*/
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+    opacity: 1;
+}
+.header-body .boton a:hover,
+footer #sign-up form a:hover{
+    background:  hsl(176, 68%, 64%);
+
+}
+#stay .container .row .col-12.text-white a:hover{
+    color: white;
+}
+footer .container .row .links .d-flex .items ul li a:hover{
+    opacity: 1;
+}
+footer .container .row .redes .d-flex a:hover{
+    color:  hsl(176, 68%, 64%);
+    border-color:  hsl(176, 68%, 64%);
 }
